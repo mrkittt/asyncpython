@@ -34,7 +34,7 @@ def send_message(clientsock):  # return fibo num from client msg
 
 def event_loop():  # handles control
     while True:
-        to_read, _, _ = select(to_monitor, [], [])
+        to_read, _, _ = select(to_monitor, [], [])  # selecting ready sockets
         for sock in to_read:
             if sock is serversock:
                 accept_connection()
