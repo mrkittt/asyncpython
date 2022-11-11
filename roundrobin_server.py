@@ -8,7 +8,7 @@ from fib import fib
 from select import select
 
 
-tasks = []  # Contains generators of ready sockets
+tasks = []  # Contains generators of that are ready to process
 
 #  queue for sockets
 to_read = {}
