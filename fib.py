@@ -1,4 +1,4 @@
-#  simple fibonacci function
+#  Fibonacci function
 
 def fib(n):
     if n <= 2:
