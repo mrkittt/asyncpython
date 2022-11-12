@@ -4,7 +4,13 @@
 When you implement a simple socket server without any process management logic(event loop), code will work in a synchronous way. 
 It means an applicaton can't handle multiple tasks at the same time. For instance, let's say you have a socket server like below:
 
-
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 import socket
 from fib import fib
 
