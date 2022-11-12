@@ -11,6 +11,7 @@ It means an applicaton can't handle multiple tasks at the same time. For instanc
 # text in gray
 @@ text in purple (and bold)@@
 ```
+```python
 import socket
 from fib import fib
 
@@ -33,4 +34,4 @@ while True:
             clientsock.send(result.encode() + b'\n')
 
     clientsock.close()
-
+```
